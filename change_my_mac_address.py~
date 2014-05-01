@@ -12,7 +12,7 @@ from threading import Timer
 
 unsure = True
 while(unsure):
-    min_time = float(raw_input('\nPlease enter the looping time in minutes: '))
+    min_time = float(raw_input('Please enter the looping time in minutes: '))
     time = min_time*60
     device_name = raw_input('Please enter the device name (example: wlan0): ')
     unsure = (raw_input('Chosen Time: '+str(min_time)+'min ; Chosen device: '+device_name+' (y: yes, n: no)')!='y')
